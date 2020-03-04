@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-				bat 'python C:\Python\AutomateCalculator\test_automate_calculator.py'
+				bat 'python C:\\Python\\AutomateCalculator\\test_automate_calculator.py'
             }
         }
     }
